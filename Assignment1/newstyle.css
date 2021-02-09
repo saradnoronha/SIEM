@@ -1,0 +1,230 @@
+  /*Body*/
+	body{
+		background-color:#fbe5d62e;
+		margin:0;
+	}
+	
+  /*Logotipo*/
+	#logo{
+		border-radius: 50%;
+		max-width:20%;
+		text-align:left;
+	}
+ 
+ 
+ /* NavBar */
+ 
+	ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden; 
+      background-color: #fbe5d696;
+	  text-align: center;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block; 
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+	
+	/*Estrutura de layout*/
+	div { font-size: 30px; 
+		text-align:left;
+	}
+	#nav {float: left; 
+		width: 200px; 
+		height: 500px;}
+	#main {height: 500px; }
+	.footer {
+		display:block;
+		position: absolute;
+		top:100%;
+		width:100%;
+		text-align: center;
+		font-family: French Script MT;
+		background-color: #f8cbad;
+	}
+
+	/* Posicionamento de texto em cima de uma imagem/footer*/
+	.bottom-center{
+		margin-top: 30px;
+		line-height: 30%;
+		margin-bottom: 30px;
+		text-align: center;
+		font-family: French Script MT;
+	}
+	.bloco {
+		display:block;
+		position: absolute;
+		top:100%;
+		width:100%;
+		height:700px;
+		text-align: center;
+		font-family: French Script MT;
+		background-color: #f8cbad;
+	}
+	.tradu{
+		margin-top: 100px;
+
+		margin-bottom: auto;
+		text-align: left;
+		font-family: French Script MT;
+	}
+	/*Menu Vertical do NavBar*/
+	li {
+      float: left;
+    }
+
+    li a,
+    .dropbtn {
+      display: inline-block;
+      color: black;
+	  font-family: Edwardian Script ITC;
+	  font-size:40px;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: #F8CBAD ; <!-- côr do bloco do menu horizontal quando hover-->
+	  text-decoration: none;
+    }
+
+    li.dropdown {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #FEF6F0; <!-- côr do bloco do menu vertical-->
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;<!-- côr do bloco do menu vertical quando hover-->
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+	
+	
+	
+	/*Lista de doces/salgados com imagens */
+	 .flex-box {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+	  margin-left: 65px;
+    }
+
+    .flex-element {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+	/*Imagens*/
+	/* Imagem de listagem de doces/salgados */
+	#comidaimg {
+      width: 300px;
+      height: auto;
+      border-radius: 50%;
+    }
+	
+	/* Imagens página principal com sobreposição*/
+	.imagemfundo{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: auto;
+		width:99%;
+		height:100%;
+		position:absolute;
+		
+	}
+	/*Imagens de Receitas*/
+	.image {
+
+		object-fit: cover;
+		width:100%;
+
+
+	}
+	/* Texto*/ 
+	h2{
+		font-family: Edwardian Script ITC;
+		margin-top: -50px;
+		font-size:40px;
+		margin-left:50px;
+	}
+	.text{
+		position: relative;
+		text-align: center;
+		font-family: French Script MT;
+	}
+
+	p{
+		margin-left: 50px;
+		font-family: French Script MT;
+		font-size: 30px;
+	}
+	/*Títulos*/
+	.TituloPag{
+		font-family: Edwardian Script ITC;
+	    font-size:54px;
+		text-align:center;
+	}
+	.TituloImg{
+		font-family: Edwardian Script ITC;
+		font-size: 36px;
+		text-align: center;
+	}
+	/*Tabelas*/
+	table{
+		margin-left: 100px;
+		font-family: French Script MT;
+		font-size: 30px;
+		position:relative;
+	}
+	
+	
+	/* Links*/
+	a:link{
+		text-decoration: none;
+		color:black;
+	}
+	a:visited{
+		text-decoration: none;
+		color:black;
+	}
+	a:hover {
+		text-decoration: none;
+		color: gray;
+	}
+
+	
